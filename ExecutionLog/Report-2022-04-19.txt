@@ -1,0 +1,10 @@
+Apr 19,2022 15:30:16 [info]  Entered username as nakhter0441@gmail.com
+Apr 19,2022 15:30:18 [info]  Entered password as Arexdata1!
+Apr 19,2022 15:30:23 [info]  Clicked on login button
+Apr 19,2022 15:30:48 [info]  Clicked on create alert button
+Apr 19,2022 15:30:57 [info]  Alert name entered.
+Apr 19,2022 15:31:01 [info]  Email entered.
+Apr 19,2022 15:31:08 [info]  Clicked on save button
+Apr 19,2022 15:31:13 [info]  Clicked on Heade of Column : Name
+Apr 19,2022 15:31:19 [info]  Clicked on delete button to delete alert
+Apr 19,2022 15:31:38 [info]  Closing driver on platform: Windows 10
