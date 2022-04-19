@@ -18,7 +18,7 @@ pipeline {
 			}
 			stage('Tests') {
             steps {
-                bat 'mvn clean install -D %TestingType%'
+                bat 'mvn clean install -P %TestingType%'
             }
         } 
 	       stage('GmailNotification'){
