@@ -11,7 +11,7 @@ pipeline {
                 bat 'mvn clean install -P %TestingType%'
             }
         } 
-	       stage('GmailNotification'){
+	       stage('Notification'){
 		    steps{
 			emailext attachmentsPattern: '**/selenium-automation-report.html', body: 'Hi Team ,Please Find attachment for Passes TestCases', subject: 'AutomationTest', to: 'siva0750@gmail.com,agonzalez@arexdata.com'    
 		    }
