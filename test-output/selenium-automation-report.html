@@ -24,50 +24,437 @@ td.numi.unexpected { background-color:#FFBBBB; }td.numi.unexpected.skipped { bac
 </head>
 <body>
 
-<center><h2>Smoke Test Execution Report - on Chrome (N/A) - 2022/01/26 09:26:36 PM </h2></center><table cellspacing=0 cellpadding=0 class=testOverview>
+<center><h2>Regression Test Execution Report - on Chrome (N/A) - 2022/04/22 04:38:18 PM </h2></center><table cellspacing=0 cellpadding=0 class=testOverview>
 <tr><th bgcolor="#FFE4C4">Test Area/Feature Name</th><th bgcolor="#FFE4C4"># Passed</th><th bgcolor="#FFE4C4"># Skipped</th><th bgcolor="#FFE4C4"># Failed</th><th bgcolor="#FFE4C4"># Total</th><th bgcolor="#FFE4C4">Start<br/>Time<br/>(hh:mm:ss)</th><th bgcolor="#FFE4C4">End<br/>Time<br/>(hh:mm:ss)</th><th bgcolor="#FFE4C4">Total<br/>Time<br/>(hh:mm:ss)</th><th bgcolor="#FFE4C4">Included<br/>Groups</th><th bgcolor="#FFE4C4">Excluded<br/>Groups</th></tr>
-<tr><td class="summaryrow"><a href="#t1"><b>Enpoint Test</b></a></td><td class="numi passed expected">17</td>
+<tr><td class="summaryrow"><a href="#t1"><b>Admin Alert Test</b></a></td><td class="numi passed expected">0</td>
 <td class="numi skipped expected">0</td>
-<td class="numi failed expected">0</td>
-<td class="numi expected">17</td>
-<td class="numi expected">09:06:28 PM</td>
+<td class="numi failed unexpected">22</td>
+<td class="numi expected">22</td>
+<td class="numi expected">03:47:08 PM</td>
 </td>
-<td class="numi expected">09:26:36 PM</td>
+<td class="numi expected">04:09:20 PM</td>
 </td>
-<td class="numi expected">00:20:07</td>
-<td class="numi expected"></td>
+<td class="numi expected">00:22:12</td>
+<td class="numi expected">Regression </td>
 <td class="numi expected"></td>
 </tr>
+<tr class=stripe><td class="summaryrow"><a href="#t2"><b>Application Log</b></a></td><td class="numi passed expected">1</td>
+<td class="numi skipped expected">0</td>
+<td class="numi failed unexpected">2</td>
+<td class="numi expected">3</td>
+<td class="numi expected">04:09:20 PM</td>
+</td>
+<td class="numi expected">04:12:51 PM</td>
+</td>
+<td class="numi expected">00:03:30</td>
+<td class="numi expected">Regression </td>
+<td class="numi expected"></td>
+</tr>
+<tr><td class="summaryrow"><a href="#t3"><b>User Test</b></a></td><td class="numi passed expected">0</td>
+<td class="numi skipped expected">0</td>
+<td class="numi failed unexpected">3</td>
+<td class="numi expected">3</td>
+<td class="numi expected">04:12:51 PM</td>
+</td>
+<td class="numi expected">04:17:54 PM</td>
+</td>
+<td class="numi expected">00:05:03</td>
+<td class="numi expected">Regression </td>
+<td class="numi expected"></td>
+</tr>
+<tr class=stripe><td class="summaryrow"><a href="#t4"><b>Enpoint Test</b></a></td><td class="numi passed expected">5</td>
+<td class="numi skipped expected">0</td>
+<td class="numi failed unexpected">13</td>
+<td class="numi expected">18</td>
+<td class="numi expected">04:17:54 PM</td>
+</td>
+<td class="numi expected">04:38:18 PM</td>
+</td>
+<td class="numi expected">00:20:23</td>
+<td class="numi expected">Regression </td>
+<td class="numi expected"></td>
+</tr>
+<tr><td class="summaryrow"><a href="#t5"><b>Admin Manage Settings Test</b></a></td><td class="numi passed expected">0</td>
+<td class="numi skipped expected">0</td>
+<td class="numi failed expected">0</td>
+<td class="numi expected">0</td>
+<td class="numi expected">04:38:18 PM</td>
+</td>
+<td class="numi expected">04:38:18 PM</td>
+</td>
+<td class="numi expected">00:00:00</td>
+<td class="numi expected">Regression </td>
+<td class="numi expected"></td>
+</tr>
+<tr class=total><td>Total</td>
+<td class="numi passed expected">6</td>
+<td class="numi skipped expected">0</td>
+<td class="numi failed unexpected">40</td>
+<td class="numi expected">46</td>
+<td class="numi expected"> </td>
+<td class="numi expected"> </td>
+<td class="numi expected">00:51:09</td>
+<td colspan=3>&nbsp;</td></tr>
 </table>
 <table cellspacing=0 cellpadding=0 class=methodOverview id=summary>
 <tr><th bgcolor="#FFE4C4">Test Class</th><th bgcolor="#FFE4C4">Test Cases/Method Name</th><th bgcolor="#FFE4C4">Exception Information</th><th bgcolor="#FFE4C4">Start Time<br/>(hh:mm:ss)</th><th bgcolor="#FFE4C4">Execution Time<br/>(hh:mm:ss)</th></tr>
-<tr id=t1><th colspan=5>Enpoint Test &#8212; passed</th></tr>
-<tr class=passedodd><td rowspan=17>tests.Admin_Manage_EndpointTest</td><td><a href="#m_testAllButtonFilterExportRefreshArePresentonTopLeftCornerOfEndpointPage"><b>testAllButtonFilterExportRefreshArePresentonTopLeftCornerOfEndpointPage</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>09:07:04 PM</td><td class=numi>00:00:16</td></tr><tr class=passedodd><td><a href="#m_testUserAbleToFilterByAliasNameWithContainsCondition"><b>testUserAbleToFilterByAliasNameWithContainsCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>09:07:56 PM</td><td class=numi>00:00:42</td></tr><tr class=passedodd><td><a href="#m_testUserAbleToFilterByAliasNameWithEqualCondition"><b>testUserAbleToFilterByAliasNameWithEqualCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>09:09:13 PM</td><td class=numi>00:00:42</td></tr><tr class=passedodd><td><a href="#m_testUserAbleToFilterByAliasNameWithStartWithCondition"><b>testUserAbleToFilterByAliasNameWithStartWithCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>09:10:31 PM</td><td class=numi>00:00:42</td></tr><tr class=passedodd><td><a href="#m_testUserAbleToFilterByLOcalIPWithContainsCondition"><b>testUserAbleToFilterByLOcalIPWithContainsCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>09:11:48 PM</td><td class=numi>00:00:42</td></tr><tr class=passedodd><td><a href="#m_testUserAbleToFilterByLOcalIPWithEqualsCondition"><b>testUserAbleToFilterByLOcalIPWithEqualsCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>09:13:04 PM</td><td class=numi>00:00:42</td></tr><tr class=passedodd><td><a href="#m_testUserAbleToFilterByLOcalIPWithStartWithCondition"><b>testUserAbleToFilterByLOcalIPWithStartWithCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>09:14:21 PM</td><td class=numi>00:00:41</td></tr><tr class=passedodd><td><a href="#m_testUserAbleToFilterByMachineNameWithContainCondition"><b>testUserAbleToFilterByMachineNameWithContainCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>09:15:37 PM</td><td class=numi>00:00:42</td></tr><tr class=passedodd><td><a href="#m_testUserAbleToFilterByMachineNameWithEqualsCondition"><b>testUserAbleToFilterByMachineNameWithEqualsCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>09:16:55 PM</td><td class=numi>00:00:42</td></tr><tr class=passedodd><td><a href="#m_testUserAbleToFilterByPublicIPWithContainsCondition"><b>testUserAbleToFilterByPublicIPWithContainsCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>09:18:12 PM</td><td class=numi>00:00:42</td></tr><tr class=passedodd><td><a href="#m_testUserAbleToFilterByPublicIPWithEqualsCondition"><b>testUserAbleToFilterByPublicIPWithEqualsCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>09:19:29 PM</td><td class=numi>00:00:42</td></tr><tr class=passedodd><td><a href="#m_testUserAbleToFilterByPublicIPWithStartWithCondition"><b>testUserAbleToFilterByPublicIPWithStartWithCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>09:20:50 PM</td><td class=numi>00:00:42</td></tr><tr class=passedodd><td><a href="#m_testUserAbleToNaviagateEnpointPage"><b>testUserAbleToNaviagateEnpointPage</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>09:22:07 PM</td><td class=numi>00:00:16</td></tr><tr class=passedodd><td><a href="#m_testUserAbleToRefreshPageByClickingOnRefreshButton"><b>testUserAbleToRefreshPageByClickingOnRefreshButton</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>09:22:58 PM</td><td class=numi>00:00:19</td></tr><tr class=passedodd><td><a href="#m_testUserAbleToSortMachineListByClickingOnColumnHeaderName"><b>testUserAbleToSortMachineListByClickingOnColumnHeaderName</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>09:23:52 PM</td><td class=numi>00:00:20</td></tr><tr class=passedodd><td><a href="#m_testWhenUserClickingOnCancelButtonFilterPouupClosedWithoutFilter"><b>testWhenUserClickingOnCancelButtonFilterPouupClosedWithoutFilter</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>09:24:47 PM</td><td class=numi>00:00:33</td></tr><tr class=passedodd><td><a href="#m_testWhenUserClickingOnClearButtonFilterValueResetToDefaultValue"><b>testWhenUserClickingOnClearButtonFilterValueResetToDefaultValue</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>09:25:57 PM</td><td class=numi>00:00:37</td></tr>
+<tr id=t1><th colspan=5>Admin Alert Test &#8212; failed</th></tr>
+<tr class=failedodd><td rowspan=22>tests.AdminAlertTest</td><td><a href="#m_testCreateAnAlertFileOperationOffice365ForDeletedOperation"><b>testCreateAnAlertFileOperationOffice365ForDeletedOperation</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>03:47:39 PM</td><td class=numi>00:00:26</td></tr><tr class=failedodd><td><a href="#m_testCreateAnAlertFileOperationOffice365ForModifiedOperation"><b>testCreateAnAlertFileOperationOffice365ForModifiedOperation</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>03:48:37 PM</td><td class=numi>00:00:28</td></tr><tr class=failedodd><td><a href="#m_testCreateAnAlertFileOperationOffice365ForReadOperation"><b>testCreateAnAlertFileOperationOffice365ForReadOperation</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>03:49:40 PM</td><td class=numi>00:00:29</td></tr><tr class=failedodd><td><a href="#m_testCreateAnAlertFileOperationOffice365ForRenamedOperation"><b>testCreateAnAlertFileOperationOffice365ForRenamedOperation</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>03:50:42 PM</td><td class=numi>00:00:29</td></tr><tr class=failedodd><td><a href="#m_testCreateAnAlertFileOperationOffice365ForUploadedOperation"><b>testCreateAnAlertFileOperationOffice365ForUploadedOperation</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>03:51:43 PM</td><td class=numi>00:00:29</td></tr><tr class=failedodd><td><a href="#m_testCreateAnAlertOfFileOperationOnAgentsForCreatedOperation"><b>testCreateAnAlertOfFileOperationOnAgentsForCreatedOperation</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>03:52:44 PM</td><td class=numi>00:00:28</td></tr><tr class=failedodd><td><a href="#m_testCreateAnAlertOfFileOperationOnAgentsForDeleteOperation"><b>testCreateAnAlertOfFileOperationOnAgentsForDeleteOperation</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>03:53:46 PM</td><td class=numi>00:00:29</td></tr><tr class=failedodd><td><a href="#m_testCreateAnAlertOfFileOperationOnAgentsForModifiedOperation"><b>testCreateAnAlertOfFileOperationOnAgentsForModifiedOperation</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>03:54:47 PM</td><td class=numi>00:00:28</td></tr><tr class=failedodd><td><a href="#m_testCreateAnAlertOfFileOperationOnAgentsForReadOperation"><b>testCreateAnAlertOfFileOperationOnAgentsForReadOperation</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>03:55:47 PM</td><td class=numi>00:00:29</td></tr><tr class=failedodd><td><a href="#m_testCreateAnAlertOfFileOperationOnAgentsForRenamedOperation"><b>testCreateAnAlertOfFileOperationOnAgentsForRenamedOperation</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>03:56:47 PM</td><td class=numi>00:00:29</td></tr><tr class=failedodd><td><a href="#m_testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentDeletedOperationAlert"><b>testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentDeletedOperationAlert</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>03:57:49 PM</td><td class=numi>00:00:28</td></tr><tr class=failedodd><td><a href="#m_testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasCreatedOperationAlert"><b>testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasCreatedOperationAlert</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>03:58:49 PM</td><td class=numi>00:00:28</td></tr><tr class=failedodd><td><a href="#m_testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasModifiedOperationAlert"><b>testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasModifiedOperationAlert</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>03:59:49 PM</td><td class=numi>00:00:29</td></tr><tr class=failedodd><td><a href="#m_testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasReadOperationAlert"><b>testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasReadOperationAlert</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:00:50 PM</td><td class=numi>00:00:29</td></tr><tr class=failedodd><td><a href="#m_testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForCreatedOperation"><b>testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForCreatedOperation</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:01:51 PM</td><td class=numi>00:00:29</td></tr><tr class=failedodd><td><a href="#m_testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForDeletedOperation"><b>testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForDeletedOperation</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:02:51 PM</td><td class=numi>00:00:28</td></tr><tr class=failedodd><td><a href="#m_testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForModifiedOperation"><b>testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForModifiedOperation</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:03:52 PM</td><td class=numi>00:00:28</td></tr><tr class=failedodd><td><a href="#m_testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForReadOperation"><b>testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForReadOperation</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:04:53 PM</td><td class=numi>00:00:29</td></tr><tr class=failedodd><td><a href="#m_testUserIsAbleToFilterAlertByIntegrationNameActivityLessThanXHours"><b>testUserIsAbleToFilterAlertByIntegrationNameActivityLessThanXHours</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:05:53 PM</td><td class=numi>00:00:27</td></tr><tr class=failedodd><td><a href="#m_testUserIsAbleToFilterAlertByNameTypeAndIntegration"><b>testUserIsAbleToFilterAlertByNameTypeAndIntegration</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:06:52 PM</td><td class=numi>00:00:28</td></tr><tr class=failedodd><td><a href="#m_testUserIsAbleToFilterAlertByNameTypeIntegrationAndSeverity"><b>testUserIsAbleToFilterAlertByNameTypeIntegrationAndSeverity</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:07:52 PM</td><td class=numi>00:00:27</td></tr><tr class=failedodd><td><a href="#m_testUserIsAbleToGetResetDefaultValueWhenClickedOnClearButtonOnFilterPoUp"><b>testUserIsAbleToGetResetDefaultValueWhenClickedOnClearButtonOnFilterPoUp</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:08:51 PM</td><td class=numi>00:00:27</td></tr>
+<tr id=t2><th colspan=5>Application Log &#8212; failed</th></tr>
+<tr class=failedodd><td rowspan=2>tests.ApplicationLogTest</td><td><a href="#m_testApplicationLogIsCreatedForUserCreated"><b>testApplicationLogIsCreatedForUserCreated</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:10:31 PM</td><td class=numi>00:01:18</td></tr><tr class=failedodd><td><a href="#m_testUserIsAbleToFilterApplicationLogWithObjectTypeUser"><b>testUserIsAbleToFilterApplicationLogWithObjectTypeUser</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:12:12 PM</td><td class=numi>00:00:37</td></tr>
+<tr><th colspan=5>Application Log &#8212; passed</th></tr>
+<tr class=passedodd><td>tests.ApplicationLogTest</td><td><a href="#m_testApplicationLogIsCreatedForPrintJobModified"><b>testApplicationLogIsCreatedForPrintJobModified</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:09:41 PM</td><td class=numi>00:00:28</td></tr>
+<tr id=t3><th colspan=5>User Test &#8212; failed</th></tr>
+<tr class=failedodd><td rowspan=3>tests.Admin_UserTest</td><td><a href="#m_testApplicationAllowsToCreateAUserWithManageUserRole"><b>testApplicationAllowsToCreateAUserWithManageUserRole</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:13:24 PM</td><td class=numi>00:01:05</td></tr><tr class=failedodd><td><a href="#m_testApplicationAllowsToCreateNewUserWithAdministrationRole"><b>testApplicationAllowsToCreateNewUserWithAdministrationRole</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:15:05 PM</td><td class=numi>00:00:54</td></tr><tr class=failedodd><td><a href="#m_testApplicationAllowsToSetPassword"><b>testApplicationAllowsToSetPassword</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:16:35 PM</td><td class=numi>00:01:18</td></tr>
+<tr id=t4><th colspan=5>Enpoint Test &#8212; failed</th></tr>
+<tr class=failedodd><td rowspan=13>tests.Admin_Manage_EndpointTest</td><td><a href="#m_testUserAbleToFilterByAliasNameWithContainsCondition"><b>testUserAbleToFilterByAliasNameWithContainsCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:20:08 PM</td><td class=numi>00:00:39</td></tr><tr class=failedodd><td><a href="#m_testUserAbleToFilterByAliasNameWithEqualCondition"><b>testUserAbleToFilterByAliasNameWithEqualCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:21:22 PM</td><td class=numi>00:00:39</td></tr><tr class=failedodd><td><a href="#m_testUserAbleToFilterByAliasNameWithStartWithCondition"><b>testUserAbleToFilterByAliasNameWithStartWithCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:22:37 PM</td><td class=numi>00:00:38</td></tr><tr class=failedodd><td><a href="#m_testUserAbleToFilterByLOcalIPWithContainsCondition"><b>testUserAbleToFilterByLOcalIPWithContainsCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:23:50 PM</td><td class=numi>00:00:39</td></tr><tr class=failedodd><td><a href="#m_testUserAbleToFilterByLOcalIPWithEqualsCondition"><b>testUserAbleToFilterByLOcalIPWithEqualsCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:25:04 PM</td><td class=numi>00:00:39</td></tr><tr class=failedodd><td><a href="#m_testUserAbleToFilterByLOcalIPWithStartWithCondition"><b>testUserAbleToFilterByLOcalIPWithStartWithCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:26:19 PM</td><td class=numi>00:00:39</td></tr><tr class=failedodd><td><a href="#m_testUserAbleToFilterByMachineNameWithContainCondition"><b>testUserAbleToFilterByMachineNameWithContainCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:27:34 PM</td><td class=numi>00:00:38</td></tr><tr class=failedodd><td><a href="#m_testUserAbleToFilterByMachineNameWithEqualsCondition"><b>testUserAbleToFilterByMachineNameWithEqualsCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:28:47 PM</td><td class=numi>00:00:39</td></tr><tr class=failedodd><td><a href="#m_testUserAbleToFilterByPublicIPWithContainsCondition"><b>testUserAbleToFilterByPublicIPWithContainsCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:30:01 PM</td><td class=numi>00:00:39</td></tr><tr class=failedodd><td><a href="#m_testUserAbleToFilterByPublicIPWithEqualsCondition"><b>testUserAbleToFilterByPublicIPWithEqualsCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:31:15 PM</td><td class=numi>00:00:39</td></tr><tr class=failedodd><td><a href="#m_testUserAbleToFilterByPublicIPWithStartWithCondition"><b>testUserAbleToFilterByPublicIPWithStartWithCondition</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:32:29 PM</td><td class=numi>00:00:39</td></tr><tr class=failedodd><td><a href="#m_testWhenUserClickingOnCancelButtonFilterPouupClosedWithoutFilter"><b>testWhenUserClickingOnCancelButtonFilterPouupClosedWithoutFilter</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:36:24 PM</td><td class=numi>00:00:38</td></tr><tr class=failedodd><td><a href="#m_testWhenUserClickingOnClearButtonFilterValueResetToDefaultValue"><b>testWhenUserClickingOnClearButtonFilterValueResetToDefaultValue</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:37:37 PM</td><td class=numi>00:00:39</td></tr>
+<tr><th colspan=5>Enpoint Test &#8212; passed</th></tr>
+<tr class=passedodd><td rowspan=5>tests.Admin_Manage_EndpointTest</td><td><a href="#m_testAllButtonFilterExportRefreshArePresentonTopLeftCornerOfEndpointPage"><b>testAllButtonFilterExportRefreshArePresentonTopLeftCornerOfEndpointPage</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:18:28 PM</td><td class=numi>00:00:15</td></tr><tr class=passedodd><td><a href="#m_testAllColumnHeaderNameShouldBeInDisplayInSameorderOfEndpointPage"><b>testAllColumnHeaderNameShouldBeInDisplayInSameorderOfEndpointPage</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:19:18 PM</td><td class=numi>00:00:15</td></tr><tr class=passedodd><td><a href="#m_testUserAbleToNaviagateEnpointPage"><b>testUserAbleToNaviagateEnpointPage</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:33:44 PM</td><td class=numi>00:00:15</td></tr><tr class=passedodd><td><a href="#m_testUserAbleToRefreshPageByClickingOnRefreshButton"><b>testUserAbleToRefreshPageByClickingOnRefreshButton</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:34:34 PM</td><td class=numi>00:00:19</td></tr><tr class=passedodd><td><a href="#m_testUserAbleToSortMachineListByClickingOnColumnHeaderName"><b>testUserAbleToSortMachineListByClickingOnColumnHeaderName</b> (Regression) </a></td><td class=numi style=text-align:left;padding-right:2em><br/></td><td style=text-align:right>04:35:29 PM</td><td class=numi>00:00:20</td></tr>
 </table>
+<h1><b>Admin Alert Test</b></h1>
+<h2 bgcolor="#FFBBBB", id="m_testCreateAnAlertFileOperationOffice365ForDeletedOperation">tests.AdminAlertTest:testCreateAnAlertFileOperationOffice365ForDeletedOperation</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertFileOperationOffice365ForDeletedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertFileOperationOffice365ForDeletedOperation2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testCreateAnAlertFileOperationOffice365ForModifiedOperation">tests.AdminAlertTest:testCreateAnAlertFileOperationOffice365ForModifiedOperation</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertFileOperationOffice365ForModifiedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertFileOperationOffice365ForModifiedOperation2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testCreateAnAlertFileOperationOffice365ForReadOperation">tests.AdminAlertTest:testCreateAnAlertFileOperationOffice365ForReadOperation</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertFileOperationOffice365ForReadOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertFileOperationOffice365ForReadOperation2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testCreateAnAlertFileOperationOffice365ForRenamedOperation">tests.AdminAlertTest:testCreateAnAlertFileOperationOffice365ForRenamedOperation</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertFileOperationOffice365ForRenamedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertFileOperationOffice365ForRenamedOperation2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testCreateAnAlertFileOperationOffice365ForUploadedOperation">tests.AdminAlertTest:testCreateAnAlertFileOperationOffice365ForUploadedOperation</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertFileOperationOffice365ForUploadedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertFileOperationOffice365ForUploadedOperation2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testCreateAnAlertOfFileOperationOnAgentsForCreatedOperation">tests.AdminAlertTest:testCreateAnAlertOfFileOperationOnAgentsForCreatedOperation</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfFileOperationOnAgentsForCreatedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertOfFileOperationOnAgentsForCreatedOperation2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testCreateAnAlertOfFileOperationOnAgentsForDeleteOperation">tests.AdminAlertTest:testCreateAnAlertOfFileOperationOnAgentsForDeleteOperation</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfFileOperationOnAgentsForDeleteOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertOfFileOperationOnAgentsForDeleteOperation2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testCreateAnAlertOfFileOperationOnAgentsForModifiedOperation">tests.AdminAlertTest:testCreateAnAlertOfFileOperationOnAgentsForModifiedOperation</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfFileOperationOnAgentsForModifiedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertOfFileOperationOnAgentsForModifiedOperation2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testCreateAnAlertOfFileOperationOnAgentsForReadOperation">tests.AdminAlertTest:testCreateAnAlertOfFileOperationOnAgentsForReadOperation</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfFileOperationOnAgentsForReadOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertOfFileOperationOnAgentsForReadOperation2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testCreateAnAlertOfFileOperationOnAgentsForRenamedOperation">tests.AdminAlertTest:testCreateAnAlertOfFileOperationOnAgentsForRenamedOperation</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfFileOperationOnAgentsForRenamedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertOfFileOperationOnAgentsForRenamedOperation2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentDeletedOperationAlert">tests.AdminAlertTest:testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentDeletedOperationAlert</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentDeletedOperationAlert2022-04-22.jpg'target='_blank' >testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentDeletedOperationAlert2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasCreatedOperationAlert">tests.AdminAlertTest:testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasCreatedOperationAlert</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasCreatedOperationAlert2022-04-22.jpg'target='_blank' >testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasCreatedOperationAlert2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasModifiedOperationAlert">tests.AdminAlertTest:testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasModifiedOperationAlert</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasModifiedOperationAlert2022-04-22.jpg'target='_blank' >testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasModifiedOperationAlert2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasReadOperationAlert">tests.AdminAlertTest:testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasReadOperationAlert</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentReadOperationAlert2022-04-22.jpg'target='_blank' >testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentReadOperationAlert2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForCreatedOperation">tests.AdminAlertTest:testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForCreatedOperation</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForCreatedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForCreatedOperation2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForDeletedOperation">tests.AdminAlertTest:testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForDeletedOperation</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForDeletedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForDeletedOperation2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForModifiedOperation">tests.AdminAlertTest:testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForModifiedOperation</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForModifiedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForModifiedOperation2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForReadOperation">tests.AdminAlertTest:testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForReadOperation</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForReadOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForReadOperation2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testUserIsAbleToFilterAlertByIntegrationNameActivityLessThanXHours">tests.AdminAlertTest:testUserIsAbleToFilterAlertByIntegrationNameActivityLessThanXHours</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testUserIsAbleToFilterAlertByIntegrationNameActivityLessThanXHours2022-04-22.jpg'target='_blank' >testUserIsAbleToFilterAlertByIntegrationNameActivityLessThanXHours2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testUserIsAbleToFilterAlertByNameTypeAndIntegration">tests.AdminAlertTest:testUserIsAbleToFilterAlertByNameTypeAndIntegration</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testUserIsAbleToFilterAlertByNameTypeAndIntegration2022-04-22.jpg'target='_blank' >testUserIsAbleToFilterAlertByNameTypeAndIntegration2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testUserIsAbleToFilterAlertByNameTypeIntegrationAndSeverity">tests.AdminAlertTest:testUserIsAbleToFilterAlertByNameTypeIntegrationAndSeverity</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testUserIsAbleToFilterAlertByNameTypeIntegrationAndSeverity2022-04-22.jpg'target='_blank' >testUserIsAbleToFilterAlertByNameTypeIntegrationAndSeverity2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testUserIsAbleToGetResetDefaultValueWhenClickedOnClearButtonOnFilterPoUp">tests.AdminAlertTest:testUserIsAbleToGetResetDefaultValueWhenClickedOnClearButtonOnFilterPoUp</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testUserIsAbleToFilterAlertByNameTypeIntegrationAndSeverity2022-04-22.jpg'target='_blank' >testUserIsAbleToFilterAlertByNameTypeIntegrationAndSeverity2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h1><b>Application Log</b></h1>
+<h2 bgcolor="#FFBBBB", id="m_testApplicationLogIsCreatedForUserCreated">tests.ApplicationLogTest:testApplicationLogIsCreatedForUserCreated</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testApplicationLogIsCreatedForUserCreated2022-04-22.jpg'target='_blank' >testApplicationLogIsCreatedForUserCreated2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testUserIsAbleToFilterApplicationLogWithObjectTypeUser">tests.ApplicationLogTest:testUserIsAbleToFilterApplicationLogWithObjectTypeUser</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testUserIsAbleToFilterApplicationLogWithObjectTypeUser2022-04-22.jpg'target='_blank' >testUserIsAbleToFilterApplicationLogWithObjectTypeUser2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="lightgreen", id="m_testApplicationLogIsCreatedForPrintJobModified">tests.ApplicationLogTest:testApplicationLogIsCreatedForPrintJobModified</h2>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h1><b>User Test</b></h1>
+<h2 bgcolor="#FFBBBB", id="m_testApplicationAllowsToCreateAUserWithManageUserRole">tests.Admin_UserTest:testApplicationAllowsToCreateAUserWithManageUserRole</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testApplicationAllowsToCreateAUserWithManageUserRole2022-04-22.jpg'target='_blank' >testApplicationAllowsToCreateAUserWithManageUserRole2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testApplicationAllowsToCreateNewUserWithAdministrationRole">tests.Admin_UserTest:testApplicationAllowsToCreateNewUserWithAdministrationRole</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testApplicationAllowsToCreateNewUserWithAdministrationRole2022-04-22.jpg'target='_blank' >testApplicationAllowsToCreateNewUserWithAdministrationRole2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testApplicationAllowsToSetPassword">tests.Admin_UserTest:testApplicationAllowsToSetPassword</h2>
+<div>
+<h3>Test Messages</h3>
+<pre>
+<a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testApplicationAllowsToSetPassword2022-04-22.jpg'target='_blank' >testApplicationAllowsToSetPassword2022-04-22</a>
+</pre>
+<h3>Failure</h3>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
 <h1><b>Enpoint Test</b></h1>
+<h2 bgcolor="#FFBBBB", id="m_testUserAbleToFilterByAliasNameWithContainsCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByAliasNameWithContainsCondition</h2>
+<div>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testUserAbleToFilterByAliasNameWithEqualCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByAliasNameWithEqualCondition</h2>
+<div>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testUserAbleToFilterByAliasNameWithStartWithCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByAliasNameWithStartWithCondition</h2>
+<div>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testUserAbleToFilterByLOcalIPWithContainsCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByLOcalIPWithContainsCondition</h2>
+<div>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testUserAbleToFilterByLOcalIPWithEqualsCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByLOcalIPWithEqualsCondition</h2>
+<div>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testUserAbleToFilterByLOcalIPWithStartWithCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByLOcalIPWithStartWithCondition</h2>
+<div>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testUserAbleToFilterByMachineNameWithContainCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByMachineNameWithContainCondition</h2>
+<div>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testUserAbleToFilterByMachineNameWithEqualsCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByMachineNameWithEqualsCondition</h2>
+<div>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testUserAbleToFilterByPublicIPWithContainsCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByPublicIPWithContainsCondition</h2>
+<div>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testUserAbleToFilterByPublicIPWithEqualsCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByPublicIPWithEqualsCondition</h2>
+<div>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testUserAbleToFilterByPublicIPWithStartWithCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByPublicIPWithStartWithCondition</h2>
+<div>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testWhenUserClickingOnCancelButtonFilterPouupClosedWithoutFilter">tests.Admin_Manage_EndpointTest:testWhenUserClickingOnCancelButtonFilterPouupClosedWithoutFilter</h2>
+<div>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
+<h2 bgcolor="#FFBBBB", id="m_testWhenUserClickingOnClearButtonFilterValueResetToDefaultValue">tests.Admin_Manage_EndpointTest:testWhenUserClickingOnClearButtonFilterValueResetToDefaultValue</h2>
+<div>
+<div class=stacktrace></div>
+</div>
+<p class=totop><a href=#summary>back to summary</a></p>
 <h2 bgcolor="lightgreen", id="m_testAllButtonFilterExportRefreshArePresentonTopLeftCornerOfEndpointPage">tests.Admin_Manage_EndpointTest:testAllButtonFilterExportRefreshArePresentonTopLeftCornerOfEndpointPage</h2>
 <p class=totop><a href=#summary>back to summary</a></p>
-<h2 bgcolor="lightgreen", id="m_testUserAbleToFilterByAliasNameWithContainsCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByAliasNameWithContainsCondition</h2>
-<p class=totop><a href=#summary>back to summary</a></p>
-<h2 bgcolor="lightgreen", id="m_testUserAbleToFilterByAliasNameWithEqualCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByAliasNameWithEqualCondition</h2>
-<p class=totop><a href=#summary>back to summary</a></p>
-<h2 bgcolor="lightgreen", id="m_testUserAbleToFilterByAliasNameWithStartWithCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByAliasNameWithStartWithCondition</h2>
-<p class=totop><a href=#summary>back to summary</a></p>
-<h2 bgcolor="lightgreen", id="m_testUserAbleToFilterByLOcalIPWithContainsCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByLOcalIPWithContainsCondition</h2>
-<p class=totop><a href=#summary>back to summary</a></p>
-<h2 bgcolor="lightgreen", id="m_testUserAbleToFilterByLOcalIPWithEqualsCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByLOcalIPWithEqualsCondition</h2>
-<p class=totop><a href=#summary>back to summary</a></p>
-<h2 bgcolor="lightgreen", id="m_testUserAbleToFilterByLOcalIPWithStartWithCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByLOcalIPWithStartWithCondition</h2>
-<p class=totop><a href=#summary>back to summary</a></p>
-<h2 bgcolor="lightgreen", id="m_testUserAbleToFilterByMachineNameWithContainCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByMachineNameWithContainCondition</h2>
-<p class=totop><a href=#summary>back to summary</a></p>
-<h2 bgcolor="lightgreen", id="m_testUserAbleToFilterByMachineNameWithEqualsCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByMachineNameWithEqualsCondition</h2>
-<p class=totop><a href=#summary>back to summary</a></p>
-<h2 bgcolor="lightgreen", id="m_testUserAbleToFilterByPublicIPWithContainsCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByPublicIPWithContainsCondition</h2>
-<p class=totop><a href=#summary>back to summary</a></p>
-<h2 bgcolor="lightgreen", id="m_testUserAbleToFilterByPublicIPWithEqualsCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByPublicIPWithEqualsCondition</h2>
-<p class=totop><a href=#summary>back to summary</a></p>
-<h2 bgcolor="lightgreen", id="m_testUserAbleToFilterByPublicIPWithStartWithCondition">tests.Admin_Manage_EndpointTest:testUserAbleToFilterByPublicIPWithStartWithCondition</h2>
+<h2 bgcolor="lightgreen", id="m_testAllColumnHeaderNameShouldBeInDisplayInSameorderOfEndpointPage">tests.Admin_Manage_EndpointTest:testAllColumnHeaderNameShouldBeInDisplayInSameorderOfEndpointPage</h2>
 <p class=totop><a href=#summary>back to summary</a></p>
 <h2 bgcolor="lightgreen", id="m_testUserAbleToNaviagateEnpointPage">tests.Admin_Manage_EndpointTest:testUserAbleToNaviagateEnpointPage</h2>
 <p class=totop><a href=#summary>back to summary</a></p>
@@ -75,9 +462,6 @@ td.numi.unexpected { background-color:#FFBBBB; }td.numi.unexpected.skipped { bac
 <p class=totop><a href=#summary>back to summary</a></p>
 <h2 bgcolor="lightgreen", id="m_testUserAbleToSortMachineListByClickingOnColumnHeaderName">tests.Admin_Manage_EndpointTest:testUserAbleToSortMachineListByClickingOnColumnHeaderName</h2>
 <p class=totop><a href=#summary>back to summary</a></p>
-<h2 bgcolor="lightgreen", id="m_testWhenUserClickingOnCancelButtonFilterPouupClosedWithoutFilter">tests.Admin_Manage_EndpointTest:testWhenUserClickingOnCancelButtonFilterPouupClosedWithoutFilter</h2>
-<p class=totop><a href=#summary>back to summary</a></p>
-<h2 bgcolor="lightgreen", id="m_testWhenUserClickingOnClearButtonFilterValueResetToDefaultValue">tests.Admin_Manage_EndpointTest:testWhenUserClickingOnClearButtonFilterValueResetToDefaultValue</h2>
-<p class=totop><a href=#summary>back to summary</a></p>
+<h1><b>Admin Manage Settings Test</b></h1>
 <center> TestNG Report </center>
 </body></html>

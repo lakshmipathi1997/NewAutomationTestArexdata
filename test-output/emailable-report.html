@@ -8,27 +8,1064 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Smoke Test</th></tr>
-<tr><td><a href="#t0">Enpoint Test</a></td><td class="num">17</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1,207,762</td><td></td><td></td></tr>
+<tr><th colspan="8">Regression Test</th></tr>
+<tr><td><a href="#t0">Admin Alert Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">22</td><td class="num">1,332,165</td><td>Regression</td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Application Log</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">210,484</td><td>Regression</td><td></td></tr>
+<tr><td><a href="#t2">User Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">303,493</td><td>Regression</td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Enpoint Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">13</td><td class="num">1,223,629</td><td>Regression</td><td></td></tr>
+<tr><td><a href="#t4">Admin Manage Settings Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1</td><td>Regression</td><td></td></tr>
+<tr><th>Total</th><th class="num">6</th><th class="num">0</th><th class="num">0</th><th class="num attn">40</th><th class="num">3,069,772</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Smoke Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Enpoint Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="17">tests.Admin_Manage_EndpointTest</td><td><a href="#m0">testAllButtonFilterExportRefreshArePresentonTopLeftCornerOfEndpointPage</a></td><td rowspan="1">1643211424284</td><td rowspan="1">16013</td></tr><tr class="passedeven"><td><a href="#m1">testUserAbleToFilterByAliasNameWithContainsCondition</a></td><td rowspan="1">1643211476746</td><td rowspan="1">41850</td></tr><tr class="passedeven"><td><a href="#m2">testUserAbleToFilterByAliasNameWithEqualCondition</a></td><td rowspan="1">1643211553521</td><td rowspan="1">42319</td></tr><tr class="passedeven"><td><a href="#m3">testUserAbleToFilterByAliasNameWithStartWithCondition</a></td><td rowspan="1">1643211631749</td><td rowspan="1">41798</td></tr><tr class="passedeven"><td><a href="#m4">testUserAbleToFilterByLOcalIPWithContainsCondition</a></td><td rowspan="1">1643211708019</td><td rowspan="1">42026</td></tr><tr class="passedeven"><td><a href="#m5">testUserAbleToFilterByLOcalIPWithEqualsCondition</a></td><td rowspan="1">1643211784698</td><td rowspan="1">42019</td></tr><tr class="passedeven"><td><a href="#m6">testUserAbleToFilterByLOcalIPWithStartWithCondition</a></td><td rowspan="1">1643211861027</td><td rowspan="1">41710</td></tr><tr class="passedeven"><td><a href="#m7">testUserAbleToFilterByMachineNameWithContainCondition</a></td><td rowspan="1">1643211937445</td><td rowspan="1">42160</td></tr><tr class="passedeven"><td><a href="#m8">testUserAbleToFilterByMachineNameWithEqualsCondition</a></td><td rowspan="1">1643212015757</td><td rowspan="1">41637</td></tr><tr class="passedeven"><td><a href="#m9">testUserAbleToFilterByPublicIPWithContainsCondition</a></td><td rowspan="1">1643212092162</td><td rowspan="1">42249</td></tr><tr class="passedeven"><td><a href="#m10">testUserAbleToFilterByPublicIPWithEqualsCondition</a></td><td rowspan="1">1643212169483</td><td rowspan="1">41782</td></tr><tr class="passedeven"><td><a href="#m11">testUserAbleToFilterByPublicIPWithStartWithCondition</a></td><td rowspan="1">1643212250244</td><td rowspan="1">41953</td></tr><tr class="passedeven"><td><a href="#m12">testUserAbleToNaviagateEnpointPage</a></td><td rowspan="1">1643212327733</td><td rowspan="1">15455</td></tr><tr class="passedeven"><td><a href="#m13">testUserAbleToRefreshPageByClickingOnRefreshButton</a></td><td rowspan="1">1643212378322</td><td rowspan="1">19427</td></tr><tr class="passedeven"><td><a href="#m14">testUserAbleToSortMachineListByClickingOnColumnHeaderName</a></td><td rowspan="1">1643212432977</td><td rowspan="1">19695</td></tr><tr class="passedeven"><td><a href="#m15">testWhenUserClickingOnCancelButtonFilterPouupClosedWithoutFilter</a></td><td rowspan="1">1643212487280</td><td rowspan="1">33182</td></tr><tr class="passedeven"><td><a href="#m16">testWhenUserClickingOnClearButtonFilterValueResetToDefaultValue</a></td><td rowspan="1">1643212557251</td><td rowspan="1">37406</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Regression Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Admin Alert Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="22">tests.AdminAlertTest</td><td><a href="#m0">testCreateAnAlertFileOperationOffice365ForDeletedOperation</a></td><td rowspan="1">1650622659377</td><td rowspan="1">26459</td></tr><tr class="failedeven"><td><a href="#m1">testCreateAnAlertFileOperationOffice365ForModifiedOperation</a></td><td rowspan="1">1650622717172</td><td rowspan="1">28651</td></tr><tr class="failedeven"><td><a href="#m2">testCreateAnAlertFileOperationOffice365ForReadOperation</a></td><td rowspan="1">1650622780861</td><td rowspan="1">28928</td></tr><tr class="failedeven"><td><a href="#m3">testCreateAnAlertFileOperationOffice365ForRenamedOperation</a></td><td rowspan="1">1650622842965</td><td rowspan="1">28794</td></tr><tr class="failedeven"><td><a href="#m4">testCreateAnAlertFileOperationOffice365ForUploadedOperation</a></td><td rowspan="1">1650622903463</td><td rowspan="1">28640</td></tr><tr class="failedeven"><td><a href="#m5">testCreateAnAlertOfFileOperationOnAgentsForCreatedOperation</a></td><td rowspan="1">1650622964200</td><td rowspan="1">28778</td></tr><tr class="failedeven"><td><a href="#m6">testCreateAnAlertOfFileOperationOnAgentsForDeleteOperation</a></td><td rowspan="1">1650623026604</td><td rowspan="1">28622</td></tr><tr class="failedeven"><td><a href="#m7">testCreateAnAlertOfFileOperationOnAgentsForModifiedOperation</a></td><td rowspan="1">1650623087029</td><td rowspan="1">28659</td></tr><tr class="failedeven"><td><a href="#m8">testCreateAnAlertOfFileOperationOnAgentsForReadOperation</a></td><td rowspan="1">1650623147996</td><td rowspan="1">28626</td></tr><tr class="failedeven"><td><a href="#m9">testCreateAnAlertOfFileOperationOnAgentsForRenamedOperation</a></td><td rowspan="1">1650623207521</td><td rowspan="1">28553</td></tr><tr class="failedeven"><td><a href="#m10">testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentDeletedOperationAlert</a></td><td rowspan="1">1650623269004</td><td rowspan="1">28605</td></tr><tr class="failedeven"><td><a href="#m11">testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasCreatedOperationAlert</a></td><td rowspan="1">1650623329007</td><td rowspan="1">28664</td></tr><tr class="failedeven"><td><a href="#m12">testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasModifiedOperationAlert</a></td><td rowspan="1">1650623389743</td><td rowspan="1">28638</td></tr><tr class="failedeven"><td><a href="#m13">testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasReadOperationAlert</a></td><td rowspan="1">1650623450628</td><td rowspan="1">28933</td></tr><tr class="failedeven"><td><a href="#m14">testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForCreatedOperation</a></td><td rowspan="1">1650623511614</td><td rowspan="1">28594</td></tr><tr class="failedeven"><td><a href="#m15">testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForDeletedOperation</a></td><td rowspan="1">1650623571189</td><td rowspan="1">28741</td></tr><tr class="failedeven"><td><a href="#m16">testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForModifiedOperation</a></td><td rowspan="1">1650623632185</td><td rowspan="1">28573</td></tr><tr class="failedeven"><td><a href="#m17">testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForReadOperation</a></td><td rowspan="1">1650623693307</td><td rowspan="1">28729</td></tr><tr class="failedeven"><td><a href="#m18">testUserIsAbleToFilterAlertByIntegrationNameActivityLessThanXHours</a></td><td rowspan="1">1650623753186</td><td rowspan="1">27553</td></tr><tr class="failedeven"><td><a href="#m19">testUserIsAbleToFilterAlertByNameTypeAndIntegration</a></td><td rowspan="1">1650623812586</td><td rowspan="1">27647</td></tr><tr class="failedeven"><td><a href="#m20">testUserIsAbleToFilterAlertByNameTypeIntegrationAndSeverity</a></td><td rowspan="1">1650623872035</td><td rowspan="1">27717</td></tr><tr class="failedeven"><td><a href="#m21">testUserIsAbleToGetResetDefaultValueWhenClickedOnClearButtonOnFilterPoUp</a></td><td rowspan="1">1650623931142</td><td rowspan="1">27645</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Application Log &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">tests.ApplicationLogTest</td><td><a href="#m22">testApplicationLogIsCreatedForUserCreated</a></td><td rowspan="1">1650624031470</td><td rowspan="1">77772</td></tr><tr class="failedeven"><td><a href="#m23">testUserIsAbleToFilterApplicationLogWithObjectTypeUser</a></td><td rowspan="1">1650624132386</td><td rowspan="1">37197</td></tr><tr><th colspan="4">Application Log &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.ApplicationLogTest</td><td><a href="#m24">testApplicationLogIsCreatedForPrintJobModified</a></td><td rowspan="1">1650623981032</td><td rowspan="1">27983</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">User Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">tests.Admin_UserTest</td><td><a href="#m25">testApplicationAllowsToCreateAUserWithManageUserRole</a></td><td rowspan="1">1650624204704</td><td rowspan="1">65136</td></tr><tr class="failedeven"><td><a href="#m26">testApplicationAllowsToCreateNewUserWithAdministrationRole</a></td><td rowspan="1">1650624305791</td><td rowspan="1">54113</td></tr><tr class="failedeven"><td><a href="#m27">testApplicationAllowsToSetPassword</a></td><td rowspan="1">1650624395288</td><td rowspan="1">77952</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Enpoint Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="13">tests.Admin_Manage_EndpointTest</td><td><a href="#m28">testUserAbleToFilterByAliasNameWithContainsCondition</a></td><td rowspan="1">1650624608334</td><td rowspan="1">38721</td></tr><tr class="failedeven"><td><a href="#m29">testUserAbleToFilterByAliasNameWithEqualCondition</a></td><td rowspan="1">1650624682767</td><td rowspan="1">38740</td></tr><tr class="failedeven"><td><a href="#m30">testUserAbleToFilterByAliasNameWithStartWithCondition</a></td><td rowspan="1">1650624757000</td><td rowspan="1">38699</td></tr><tr class="failedeven"><td><a href="#m31">testUserAbleToFilterByLOcalIPWithContainsCondition</a></td><td rowspan="1">1650624830422</td><td rowspan="1">38840</td></tr><tr class="failedeven"><td><a href="#m32">testUserAbleToFilterByLOcalIPWithEqualsCondition</a></td><td rowspan="1">1650624904887</td><td rowspan="1">38800</td></tr><tr class="failedeven"><td><a href="#m33">testUserAbleToFilterByLOcalIPWithStartWithCondition</a></td><td rowspan="1">1650624979608</td><td rowspan="1">38865</td></tr><tr class="failedeven"><td><a href="#m34">testUserAbleToFilterByMachineNameWithContainCondition</a></td><td rowspan="1">1650625054196</td><td rowspan="1">38680</td></tr><tr class="failedeven"><td><a href="#m35">testUserAbleToFilterByMachineNameWithEqualsCondition</a></td><td rowspan="1">1650625127191</td><td rowspan="1">38896</td></tr><tr class="failedeven"><td><a href="#m36">testUserAbleToFilterByPublicIPWithContainsCondition</a></td><td rowspan="1">1650625201306</td><td rowspan="1">38842</td></tr><tr class="failedeven"><td><a href="#m37">testUserAbleToFilterByPublicIPWithEqualsCondition</a></td><td rowspan="1">1650625275794</td><td rowspan="1">38726</td></tr><tr class="failedeven"><td><a href="#m38">testUserAbleToFilterByPublicIPWithStartWithCondition</a></td><td rowspan="1">1650625349640</td><td rowspan="1">38809</td></tr><tr class="failedeven"><td><a href="#m39">testWhenUserClickingOnCancelButtonFilterPouupClosedWithoutFilter</a></td><td rowspan="1">1650625584310</td><td rowspan="1">38670</td></tr><tr class="failedeven"><td><a href="#m40">testWhenUserClickingOnClearButtonFilterValueResetToDefaultValue</a></td><td rowspan="1">1650625657882</td><td rowspan="1">38793</td></tr><tr><th colspan="4">Enpoint Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">tests.Admin_Manage_EndpointTest</td><td><a href="#m41">testAllButtonFilterExportRefreshArePresentonTopLeftCornerOfEndpointPage</a></td><td rowspan="1">1650624508213</td><td rowspan="1">15516</td></tr><tr class="passedeven"><td><a href="#m42">testAllColumnHeaderNameShouldBeInDisplayInSameorderOfEndpointPage</a></td><td rowspan="1">1650624558244</td><td rowspan="1">15397</td></tr><tr class="passedeven"><td><a href="#m43">testUserAbleToNaviagateEnpointPage</a></td><td rowspan="1">1650625424542</td><td rowspan="1">15315</td></tr><tr class="passedeven"><td><a href="#m44">testUserAbleToRefreshPageByClickingOnRefreshButton</a></td><td rowspan="1">1650625474162</td><td rowspan="1">19467</td></tr><tr class="passedeven"><td><a href="#m45">testUserAbleToSortMachineListByClickingOnColumnHeaderName</a></td><td rowspan="1">1650625529558</td><td rowspan="1">19535</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4" class="invisible"/></tr></tbody>
 </table>
-<h2>Enpoint Test</h2><h3 id="m0">tests.Admin_Manage_EndpointTest#testAllButtonFilterExportRefreshArePresentonTopLeftCornerOfEndpointPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByAliasNameWithContainsCondition</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByAliasNameWithEqualCondition</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByAliasNameWithStartWithCondition</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByLOcalIPWithContainsCondition</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByLOcalIPWithEqualsCondition</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByLOcalIPWithStartWithCondition</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByMachineNameWithContainCondition</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByMachineNameWithEqualsCondition</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByPublicIPWithContainsCondition</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByPublicIPWithEqualsCondition</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByPublicIPWithStartWithCondition</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">tests.Admin_Manage_EndpointTest#testUserAbleToNaviagateEnpointPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">tests.Admin_Manage_EndpointTest#testUserAbleToRefreshPageByClickingOnRefreshButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m14">tests.Admin_Manage_EndpointTest#testUserAbleToSortMachineListByClickingOnColumnHeaderName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m15">tests.Admin_Manage_EndpointTest#testWhenUserClickingOnCancelButtonFilterPouupClosedWithoutFilter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m16">tests.Admin_Manage_EndpointTest#testWhenUserClickingOnClearButtonFilterValueResetToDefaultValue</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-</body>
+<h2>Admin Alert Test</h2><h3 id="m0">tests.AdminAlertTest#testCreateAnAlertFileOperationOffice365ForDeletedOperation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertFileOperationOffice365ForDeletedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertFileOperationOffice365ForDeletedOperation2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//td[text()=&apos;FileOperationOffice365ForDeletedOperation23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_AlertsPage.deleteExistingAlert(Admin_AlertsPage.java:188)
+	at tests.AdminAlertTest.testCreateAnAlertFileOperationOffice365ForDeletedOperation(AdminAlertTest.java:673)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.AdminAlertTest#testCreateAnAlertFileOperationOffice365ForModifiedOperation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertFileOperationOffice365ForModifiedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertFileOperationOffice365ForModifiedOperation2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;FileOperationOffice365ForRenamedOperation23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63915}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f4c028b976cb8232b684725794859738
+*** Element info: {Using=xpath, value=//td[text()=&apos;FileOperationOffice365ForRenamedOperation23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_AlertsPage.deleteExistingAlert(Admin_AlertsPage.java:188)
+	at tests.AdminAlertTest.testCreateAnAlertFileOperationOffice365ForModifiedOperation(AdminAlertTest.java:826)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.AdminAlertTest#testCreateAnAlertFileOperationOffice365ForReadOperation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertFileOperationOffice365ForReadOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertFileOperationOffice365ForReadOperation2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;FileOperationOffice365ForModifiedOperation23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64027}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ddff0cf537b40634488c1dc4ac360982
+*** Element info: {Using=xpath, value=//td[text()=&apos;FileOperationOffice365ForModifiedOperation23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_AlertsPage.deleteExistingAlert(Admin_AlertsPage.java:188)
+	at tests.AdminAlertTest.testCreateAnAlertFileOperationOffice365ForReadOperation(AdminAlertTest.java:775)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.AdminAlertTest#testCreateAnAlertFileOperationOffice365ForRenamedOperation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertFileOperationOffice365ForRenamedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertFileOperationOffice365ForRenamedOperation2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;FileOperationOffice365ForReadOperation23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64096}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf630304d8b3eb79958b23aba525bf52
+*** Element info: {Using=xpath, value=//td[text()=&apos;FileOperationOffice365ForReadOperation23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_AlertsPage.deleteExistingAlert(Admin_AlertsPage.java:188)
+	at tests.AdminAlertTest.testCreateAnAlertFileOperationOffice365ForRenamedOperation(AdminAlertTest.java:724)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.AdminAlertTest#testCreateAnAlertFileOperationOffice365ForUploadedOperation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertFileOperationOffice365ForUploadedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertFileOperationOffice365ForUploadedOperation2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;FileOperationOffice365ForUploadedOperation23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64170}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 03090c78ade3f55717aa78d2495b0268
+*** Element info: {Using=xpath, value=//td[text()=&apos;FileOperationOffice365ForUploadedOperation23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_AlertsPage.deleteExistingAlert(Admin_AlertsPage.java:188)
+	at tests.AdminAlertTest.testCreateAnAlertFileOperationOffice365ForUploadedOperation(AdminAlertTest.java:622)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.AdminAlertTest#testCreateAnAlertOfFileOperationOnAgentsForCreatedOperation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfFileOperationOnAgentsForCreatedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertOfFileOperationOnAgentsForCreatedOperation2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;FileOperationOnAgentsCreatedOperationAlert23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64262}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 732f33ac1e7abde52c726c3b7b8680ba
+*** Element info: {Using=xpath, value=//td[text()=&apos;FileOperationOnAgentsCreatedOperationAlert23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_AlertsPage.deleteExistingAlert(Admin_AlertsPage.java:188)
+	at tests.AdminAlertTest.testCreateAnAlertOfFileOperationOnAgentsForCreatedOperation(AdminAlertTest.java:318)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.AdminAlertTest#testCreateAnAlertOfFileOperationOnAgentsForDeleteOperation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfFileOperationOnAgentsForDeleteOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertOfFileOperationOnAgentsForDeleteOperation2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;FileOperationOnAgentsDeleteOperationAlert23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ff558358d7d292288e813e02d0d4705
+*** Element info: {Using=xpath, value=//td[text()=&apos;FileOperationOnAgentsDeleteOperationAlert23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_AlertsPage.deleteExistingAlert(Admin_AlertsPage.java:188)
+	at tests.AdminAlertTest.testCreateAnAlertOfFileOperationOnAgentsForDeleteOperation(AdminAlertTest.java:220)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.AdminAlertTest#testCreateAnAlertOfFileOperationOnAgentsForModifiedOperation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfFileOperationOnAgentsForModifiedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertOfFileOperationOnAgentsForModifiedOperation2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;FileOperationOnAgentsModifiedOperationAlert23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64430}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc40bc8daeb84ff41ccc8fd643bf5c30
+*** Element info: {Using=xpath, value=//td[text()=&apos;FileOperationOnAgentsModifiedOperationAlert23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_AlertsPage.deleteExistingAlert(Admin_AlertsPage.java:188)
+	at tests.AdminAlertTest.testCreateAnAlertOfFileOperationOnAgentsForModifiedOperation(AdminAlertTest.java:367)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.AdminAlertTest#testCreateAnAlertOfFileOperationOnAgentsForReadOperation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfFileOperationOnAgentsForReadOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertOfFileOperationOnAgentsForReadOperation2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;FileOperationOnAgentsReadOperationAlert23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b95d8dcd67bac36f6dd515c273fd1ea9
+*** Element info: {Using=xpath, value=//td[text()=&apos;FileOperationOnAgentsReadOperationAlert23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_AlertsPage.deleteExistingAlert(Admin_AlertsPage.java:188)
+	at tests.AdminAlertTest.testCreateAnAlertOfFileOperationOnAgentsForReadOperation(AdminAlertTest.java:269)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.AdminAlertTest#testCreateAnAlertOfFileOperationOnAgentsForRenamedOperation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfFileOperationOnAgentsForRenamedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertOfFileOperationOnAgentsForRenamedOperation2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;FileOperationOnAgentsRenamedOperationAlert23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64568}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 874adf3f8dd47460ee8cc4c7ec87c99f
+*** Element info: {Using=xpath, value=//td[text()=&apos;FileOperationOnAgentsRenamedOperationAlert23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_AlertsPage.deleteExistingAlert(Admin_AlertsPage.java:188)
+	at tests.AdminAlertTest.testCreateAnAlertOfFileOperationOnAgentsForRenamedOperation(AdminAlertTest.java:875)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.AdminAlertTest#testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentDeletedOperationAlert</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentDeletedOperationAlert2022-04-22.jpg'target='_blank' >testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentDeletedOperationAlert2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;FileOperationonIntegratorWSADeletedOperationAlert23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01d98c3804dd88bd502ffd4f5d920949
+*** Element info: {Using=xpath, value=//td[text()=&apos;FileOperationonIntegratorWSADeletedOperationAlert23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_AlertsPage.deleteExistingAlert(Admin_AlertsPage.java:188)
+	at tests.AdminAlertTest.testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentDeletedOperationAlert(AdminAlertTest.java:925)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.AdminAlertTest#testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasCreatedOperationAlert</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasCreatedOperationAlert2022-04-22.jpg'target='_blank' >testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasCreatedOperationAlert2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;FileOperationonIntegratorWSAForCreatedOperationAlert23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70dee51ad910fddc654f6629921174b9
+*** Element info: {Using=xpath, value=//td[text()=&apos;FileOperationonIntegratorWSAForCreatedOperationAlert23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_AlertsPage.deleteExistingAlert(Admin_AlertsPage.java:188)
+	at tests.AdminAlertTest.testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasCreatedOperationAlert(AdminAlertTest.java:1028)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">tests.AdminAlertTest#testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasModifiedOperationAlert</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasModifiedOperationAlert2022-04-22.jpg'target='_blank' >testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasModifiedOperationAlert2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;FileOperationonIntegratorWSAForModifiedOperationAlert23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cd5a278cb1b2294a65bf653b9d777b04
+*** Element info: {Using=xpath, value=//td[text()=&apos;FileOperationonIntegratorWSAForModifiedOperationAlert23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_AlertsPage.deleteExistingAlert(Admin_AlertsPage.java:188)
+	at tests.AdminAlertTest.testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasModifiedOperationAlert(AdminAlertTest.java:1080)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">tests.AdminAlertTest#testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasReadOperationAlert</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentReadOperationAlert2022-04-22.jpg'target='_blank' >testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentReadOperationAlert2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;FileOperationonIntegratorWSAForReadOperationAlert23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64911}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e1a99a01ce6a3b78a823d3e19894683
+*** Element info: {Using=xpath, value=//td[text()=&apos;FileOperationonIntegratorWSAForReadOperationAlert23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_AlertsPage.deleteExistingAlert(Admin_AlertsPage.java:188)
+	at tests.AdminAlertTest.testCreateAnAlertOfFileOperationOnIntegratorWindowServerAgentasReadOperationAlert(AdminAlertTest.java:976)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">tests.AdminAlertTest#testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForCreatedOperation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForCreatedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForCreatedOperation2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;FileOperationOnNetAppQAIntegratorsCreatedOperation23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64980}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c7c749da7c421733cc183247814b5266
+*** Element info: {Using=xpath, value=//td[text()=&apos;FileOperationOnNetAppQAIntegratorsCreatedOperation23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_AlertsPage.deleteExistingAlert(Admin_AlertsPage.java:188)
+	at tests.AdminAlertTest.testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForCreatedOperation(AdminAlertTest.java:520)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">tests.AdminAlertTest#testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForDeletedOperation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForDeletedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForDeletedOperation2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;FileOperationOnNetAppQAIntegratorsDeleteOperation23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2b4b1bb7bd62ee13bfd9c191e42870
+*** Element info: {Using=xpath, value=//td[text()=&apos;FileOperationOnNetAppQAIntegratorsDeleteOperation23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_AlertsPage.deleteExistingAlert(Admin_AlertsPage.java:188)
+	at tests.AdminAlertTest.testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForDeletedOperation(AdminAlertTest.java:418)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">tests.AdminAlertTest#testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForModifiedOperation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForModifiedOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForModifiedOperation2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;FileOperationOnNetAppQAIntegratorsModifiedOperation23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f310b9d30417c914b00377177c5a0d68
+*** Element info: {Using=xpath, value=//td[text()=&apos;FileOperationOnNetAppQAIntegratorsModifiedOperation23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_AlertsPage.deleteExistingAlert(Admin_AlertsPage.java:188)
+	at tests.AdminAlertTest.testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForModifiedOperation(AdminAlertTest.java:571)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">tests.AdminAlertTest#testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForReadOperation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForReadOperation2022-04-22.jpg'target='_blank' >testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForReadOperation2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;FileOperationOnNetAppQAIntegratorsReadOperation23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b6b9bbe274b19a3089ef80e23739a268
+*** Element info: {Using=xpath, value=//td[text()=&apos;FileOperationOnNetAppQAIntegratorsReadOperation23007&apos;]/following-sibling::td/button[text()=&apos;Delete&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_AlertsPage.deleteExistingAlert(Admin_AlertsPage.java:188)
+	at tests.AdminAlertTest.testCreateAnAlertOfNetAppQaFileOperationOnIntegratorsForReadOperation(AdminAlertTest.java:469)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">tests.AdminAlertTest#testUserIsAbleToFilterAlertByIntegrationNameActivityLessThanXHours</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testUserIsAbleToFilterAlertByIntegrationNameActivityLessThanXHours2022-04-22.jpg'target='_blank' >testUserIsAbleToFilterAlertByIntegrationNameActivityLessThanXHours2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;i class=&quot;fas fa-filter&quot;&gt;&lt;/i&gt; is not clickable at point (1231, 70). Other element would receive the click: &lt;div class=&quot;k-overlay&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65279}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eeacb03f25eccda09c4847b8147214d2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.FilterDialogPage.clickOnFilterButton(FilterDialogPage.java:17)
+	at tests.AdminAlertTest.testUserIsAbleToFilterAlertByIntegrationNameActivityLessThanXHours(AdminAlertTest.java:1256)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">tests.AdminAlertTest#testUserIsAbleToFilterAlertByNameTypeAndIntegration</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testUserIsAbleToFilterAlertByNameTypeAndIntegration2022-04-22.jpg'target='_blank' >testUserIsAbleToFilterAlertByNameTypeAndIntegration2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;i class=&quot;fas fa-filter&quot;&gt;&lt;/i&gt; is not clickable at point (1231, 70). Other element would receive the click: &lt;div class=&quot;k-overlay&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65348}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1874fa91c5504a09522b3d0a9025a536
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.FilterDialogPage.clickOnFilterButton(FilterDialogPage.java:17)
+	at tests.AdminAlertTest.testUserIsAbleToFilterAlertByNameTypeAndIntegration(AdminAlertTest.java:1805)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">tests.AdminAlertTest#testUserIsAbleToFilterAlertByNameTypeIntegrationAndSeverity</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testUserIsAbleToFilterAlertByNameTypeIntegrationAndSeverity2022-04-22.jpg'target='_blank' >testUserIsAbleToFilterAlertByNameTypeIntegrationAndSeverity2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;i class=&quot;fas fa-filter&quot;&gt;&lt;/i&gt; is not clickable at point (1231, 70). Other element would receive the click: &lt;div class=&quot;k-overlay&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65416}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47ed35f1a7319a8cfe848ad4ddff70b4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.FilterDialogPage.clickOnFilterButton(FilterDialogPage.java:17)
+	at tests.AdminAlertTest.testUserIsAbleToFilterAlertByNameTypeIntegrationAndSeverity(AdminAlertTest.java:1875)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">tests.AdminAlertTest#testUserIsAbleToGetResetDefaultValueWhenClickedOnClearButtonOnFilterPoUp</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testUserIsAbleToFilterAlertByNameTypeIntegrationAndSeverity2022-04-22.jpg'target='_blank' >testUserIsAbleToFilterAlertByNameTypeIntegrationAndSeverity2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;i class=&quot;fas fa-filter&quot;&gt;&lt;/i&gt; is not clickable at point (1231, 70). Other element would receive the click: &lt;div class=&quot;k-overlay&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65487}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 38380e6936183edd0709184fe964b05e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.FilterDialogPage.clickOnFilterButton(FilterDialogPage.java:17)
+	at tests.AdminAlertTest.testUserIsAbleToGetResetDefaultValueWhenClickedOnClearButtonOnFilterPoUp(AdminAlertTest.java:1948)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Application Log</h2><h3 id="m22">tests.ApplicationLogTest#testApplicationLogIsCreatedForUserCreated</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testApplicationLogIsCreatedForUserCreated2022-04-22.jpg'target='_blank' >testApplicationLogIsCreatedForUserCreated2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;nasim@auto2030&apos;]/following-sibling::td//button[text()=&apos;Delete&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 50833724b3e4045599cdd931e1cbe6b0
+*** Element info: {Using=xpath, value=//td[text()=&apos;nasim@auto2030&apos;]/following-sibling::td//button[text()=&apos;Delete&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_UsersPage.deleteExistingUser(Admin_UsersPage.java:91)
+	at tests.ApplicationLogTest.testApplicationLogIsCreatedForUserCreated(ApplicationLogTest.java:272)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">tests.ApplicationLogTest#testUserIsAbleToFilterApplicationLogWithObjectTypeUser</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testUserIsAbleToFilterApplicationLogWithObjectTypeUser2022-04-22.jpg'target='_blank' >testUserIsAbleToFilterApplicationLogWithObjectTypeUser2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;i class=&quot;fas fa-filter&quot;&gt;&lt;/i&gt; is not clickable at point (1231, 70). Other element would receive the click: &lt;div class=&quot;k-overlay&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e84cb2f3146022cf76b420c83569f254
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.FilterDialogPage.clickOnFilterButton(FilterDialogPage.java:17)
+	at tests.ApplicationLogTest.testUserIsAbleToFilterApplicationLogWithObjectTypeUser(ApplicationLogTest.java:436)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">tests.ApplicationLogTest#testApplicationLogIsCreatedForPrintJobModified</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>User Test</h2><h3 id="m25">tests.Admin_UserTest#testApplicationAllowsToCreateAUserWithManageUserRole</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testApplicationAllowsToCreateAUserWithManageUserRole2022-04-22.jpg'target='_blank' >testApplicationAllowsToCreateAUserWithManageUserRole2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;nasim@auto53388&apos;]/following-sibling::td//button[text()=&apos;Edit&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eb01750581acc4a1dbd2fefe56f836d2
+*** Element info: {Using=xpath, value=//td[text()=&apos;nasim@auto53388&apos;]/following-sibling::td//button[text()=&apos;Edit&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_UsersPage.editExistingUser(Admin_UsersPage.java:102)
+	at tests.Admin_UserTest.testApplicationAllowsToCreateAUserWithManageUserRole(Admin_UserTest.java:120)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">tests.Admin_UserTest#testApplicationAllowsToCreateNewUserWithAdministrationRole</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testApplicationAllowsToCreateNewUserWithAdministrationRole2022-04-22.jpg'target='_blank' >testApplicationAllowsToCreateNewUserWithAdministrationRole2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;nasim@auto85037&apos;]/following-sibling::td//button[text()=&apos;Delete&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49782}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0173dc03dec9b06e21a0094899b4f6bb
+*** Element info: {Using=xpath, value=//td[text()=&apos;nasim@auto85037&apos;]/following-sibling::td//button[text()=&apos;Delete&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_UsersPage.deleteExistingUser(Admin_UsersPage.java:91)
+	at tests.Admin_UserTest.testApplicationAllowsToCreateNewUserWithAdministrationRole(Admin_UserTest.java:74)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">tests.Admin_UserTest#testApplicationAllowsToSetPassword</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href= 'file://C://Users//Dell//ArexdataAutomation//qa-automation-master/screenshots/testApplicationAllowsToSetPassword2022-04-22.jpg'target='_blank' >testApplicationAllowsToSetPassword2022-04-22</a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[text()=&apos;Administration&apos;]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49978}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 755502817e9cd7c227130fc21ba08e3c
+*** Element info: {Using=xpath, value=//p[text()=&apos;Administration&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at utility.DriverPage.selectTopMenu(DriverPage.java:405)
+	at pages.Admin_UsersPage.selectAdminUsersMenu(Admin_UsersPage.java:25)
+	at tests.Admin_UserTest.testApplicationAllowsToSetPassword(Admin_UserTest.java:176)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Enpoint Test</h2><h3 id="m28">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByAliasNameWithContainsCondition</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;i class=&quot;fas fa-filter&quot;&gt;&lt;/i&gt; is not clickable at point (1231, 70). Other element would receive the click: &lt;div class=&quot;k-overlay&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf16455df086efa80b9f2219fab94f9f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.FilterDialogPage.clickOnFilterButton(FilterDialogPage.java:17)
+	at tests.Admin_Manage_EndpointTest.testUserAbleToFilterByAliasNameWithContainsCondition(Admin_Manage_EndpointTest.java:292)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByAliasNameWithEqualCondition</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;i class=&quot;fas fa-filter&quot;&gt;&lt;/i&gt; is not clickable at point (1231, 70). Other element would receive the click: &lt;div class=&quot;k-overlay&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50452}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 16b38d1da07c64e0388f24a2f7bbcc48
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.FilterDialogPage.clickOnFilterButton(FilterDialogPage.java:17)
+	at tests.Admin_Manage_EndpointTest.testUserAbleToFilterByAliasNameWithEqualCondition(Admin_Manage_EndpointTest.java:330)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m30">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByAliasNameWithStartWithCondition</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;i class=&quot;fas fa-filter&quot;&gt;&lt;/i&gt; is not clickable at point (1231, 70). Other element would receive the click: &lt;div class=&quot;k-overlay&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50580}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d97111b997ac1c7f7dda3d898dd3e83
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.FilterDialogPage.clickOnFilterButton(FilterDialogPage.java:17)
+	at tests.Admin_Manage_EndpointTest.testUserAbleToFilterByAliasNameWithStartWithCondition(Admin_Manage_EndpointTest.java:368)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m31">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByLOcalIPWithContainsCondition</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;i class=&quot;fas fa-filter&quot;&gt;&lt;/i&gt; is not clickable at point (1231, 70). Other element would receive the click: &lt;div class=&quot;k-overlay&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50685}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 32ac38a6b9b84323fe5e9b8a4f38b2da
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.FilterDialogPage.clickOnFilterButton(FilterDialogPage.java:17)
+	at tests.Admin_Manage_EndpointTest.testUserAbleToFilterByLOcalIPWithContainsCondition(Admin_Manage_EndpointTest.java:406)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m32">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByLOcalIPWithEqualsCondition</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;i class=&quot;fas fa-filter&quot;&gt;&lt;/i&gt; is not clickable at point (1231, 70). Other element would receive the click: &lt;div class=&quot;k-overlay&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50805}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ce6c2b29ee9ef20f42457bfe5346fd13
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.FilterDialogPage.clickOnFilterButton(FilterDialogPage.java:17)
+	at tests.Admin_Manage_EndpointTest.testUserAbleToFilterByLOcalIPWithEqualsCondition(Admin_Manage_EndpointTest.java:444)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m33">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByLOcalIPWithStartWithCondition</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;i class=&quot;fas fa-filter&quot;&gt;&lt;/i&gt; is not clickable at point (1231, 70). Other element would receive the click: &lt;div class=&quot;k-overlay&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50907}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: da33f8dabc04670fdbd49927a5db1971
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.FilterDialogPage.clickOnFilterButton(FilterDialogPage.java:17)
+	at tests.Admin_Manage_EndpointTest.testUserAbleToFilterByLOcalIPWithStartWithCondition(Admin_Manage_EndpointTest.java:482)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m34">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByMachineNameWithContainCondition</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;i class=&quot;fas fa-filter&quot;&gt;&lt;/i&gt; is not clickable at point (1231, 70). Other element would receive the click: &lt;div class=&quot;k-overlay&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51017}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b94147689ec6c022232020e5bcda3f91
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.FilterDialogPage.clickOnFilterButton(FilterDialogPage.java:17)
+	at tests.Admin_Manage_EndpointTest.testUserAbleToFilterByMachineNameWithContainCondition(Admin_Manage_EndpointTest.java:216)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m35">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByMachineNameWithEqualsCondition</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;i class=&quot;fas fa-filter&quot;&gt;&lt;/i&gt; is not clickable at point (1231, 70). Other element would receive the click: &lt;div class=&quot;k-overlay&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51140}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5dc603238911d9543ca4226884149885
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.FilterDialogPage.clickOnFilterButton(FilterDialogPage.java:17)
+	at tests.Admin_Manage_EndpointTest.testUserAbleToFilterByMachineNameWithEqualsCondition(Admin_Manage_EndpointTest.java:254)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m36">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByPublicIPWithContainsCondition</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;i class=&quot;fas fa-filter&quot;&gt;&lt;/i&gt; is not clickable at point (1231, 70). Other element would receive the click: &lt;div class=&quot;k-overlay&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f5e538a75a1522e59590b18cadb638c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.FilterDialogPage.clickOnFilterButton(FilterDialogPage.java:17)
+	at tests.Admin_Manage_EndpointTest.testUserAbleToFilterByPublicIPWithContainsCondition(Admin_Manage_EndpointTest.java:520)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m37">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByPublicIPWithEqualsCondition</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;i class=&quot;fas fa-filter&quot;&gt;&lt;/i&gt; is not clickable at point (1231, 70). Other element would receive the click: &lt;div class=&quot;k-overlay&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e0925e52612fc7acbb54cda65f7aa74
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.FilterDialogPage.clickOnFilterButton(FilterDialogPage.java:17)
+	at tests.Admin_Manage_EndpointTest.testUserAbleToFilterByPublicIPWithEqualsCondition(Admin_Manage_EndpointTest.java:558)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m38">tests.Admin_Manage_EndpointTest#testUserAbleToFilterByPublicIPWithStartWithCondition</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;i class=&quot;fas fa-filter&quot;&gt;&lt;/i&gt; is not clickable at point (1231, 70). Other element would receive the click: &lt;div class=&quot;k-overlay&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51442}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c6bf7f057a01b13e5fa2ffd76334fcc3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.FilterDialogPage.clickOnFilterButton(FilterDialogPage.java:17)
+	at tests.Admin_Manage_EndpointTest.testUserAbleToFilterByPublicIPWithStartWithCondition(Admin_Manage_EndpointTest.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m39">tests.Admin_Manage_EndpointTest#testWhenUserClickingOnCancelButtonFilterPouupClosedWithoutFilter</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;topBarButton&quot; type=&quot;button&quot; title=&quot;Refresh Data&quot;&gt;...&lt;/button&gt; is not clickable at point (1310, 69). Other element would receive the click: &lt;div class=&quot;k-overlay&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51778}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 92de1759836e0cb4a4406f4e5f62aea3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_Manage_EndpointPage.clikOnRefreshButton(Admin_Manage_EndpointPage.java:46)
+	at tests.Admin_Manage_EndpointTest.testWhenUserClickingOnCancelButtonFilterPouupClosedWithoutFilter(Admin_Manage_EndpointTest.java:634)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m40">tests.Admin_Manage_EndpointTest#testWhenUserClickingOnClearButtonFilterValueResetToDefaultValue</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;topBarButton&quot; type=&quot;button&quot; title=&quot;Refresh Data&quot;&gt;...&lt;/button&gt; is not clickable at point (1310, 69). Other element would receive the click: &lt;div class=&quot;k-overlay&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-B96ST24&apos;, ip: &apos;10.9.8.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee1099a372fad8b95398246145e4cd21
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utility.DriverPage.clickOn(DriverPage.java:155)
+	at pages.Admin_Manage_EndpointPage.clikOnRefreshButton(Admin_Manage_EndpointPage.java:46)
+	at tests.Admin_Manage_EndpointTest.testWhenUserClickingOnClearButtonFilterValueResetToDefaultValue(Admin_Manage_EndpointTest.java:671)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m41">tests.Admin_Manage_EndpointTest#testAllButtonFilterExportRefreshArePresentonTopLeftCornerOfEndpointPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m42">tests.Admin_Manage_EndpointTest#testAllColumnHeaderNameShouldBeInDisplayInSameorderOfEndpointPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m43">tests.Admin_Manage_EndpointTest#testUserAbleToNaviagateEnpointPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m44">tests.Admin_Manage_EndpointTest#testUserAbleToRefreshPageByClickingOnRefreshButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m45">tests.Admin_Manage_EndpointTest#testUserAbleToSortMachineListByClickingOnColumnHeaderName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Admin Manage Settings Test</h2></body>
 </html>

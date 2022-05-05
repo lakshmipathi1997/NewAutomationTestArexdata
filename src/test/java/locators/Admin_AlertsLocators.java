@@ -4,6 +4,9 @@ public class Admin_AlertsLocators {
 
     public static final String createAlertBtn = "//button[text()='Create']";
     public static final String selectType = "//label[text()='Type']/..//span";
+    public static final String dropDown ="";
+    //-->//span[@id='e7b557a8-d177-486b-9551-b1e78060fb97']
+    //-->//label[text()='Type']/..//span
     public static final String integrationType = "//label[text()='Integration']/..//span";
     public static final String alertName = "//label[text()='Name']/..//input";
     public static final String severity = "//label[text()='Severity']/..//span";

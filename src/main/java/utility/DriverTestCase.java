@@ -32,13 +32,20 @@ public abstract class DriverTestCase {
     public static WebDriver driver;
     public ExecutionLog log = new ExecutionLog();
     public static PropertyReader propertyReader;
+    
+    String browser = System.getProperty("browser");
+    String Envi= System.getProperty("url");
+    String headless= System.getProperty("headless");
 
     public void setup() throws Exception{
         String driverType, url, os, mode;
         propertyReader = new PropertyReader();
-        driverType = propertyReader.readProperty("browser");
-        url = propertyReader.readProperty("url");
-        mode = propertyReader.readProperty("headless");
+        driverType =browser;
+        		//propertyReader.readProperty("browser");
+        url =Envi;
+        		//propertyReader.readProperty("url");
+        mode =headless;
+        		//propertyReader.readProperty("headless");
         String osVal = propertyReader.readProperty("os");
 
         if(osVal.equalsIgnoreCase("linux")){

@@ -141,7 +141,7 @@ public class AdminAlertTest extends DriverTestCase {
 	public void testActivityLessthanXhoursCriticalAlertCreated() throws Exception {
 
 		String alertName = sheet.getSingleCellData("AlertName", 3, "Admin_Alert") + randNo;
-		String alertType = sheet.getSingleCellData("Type", 1, "Admin_Alert");
+		String alertType = sheet.getSingleCellData("Type",1,"Admin_Alert");
 		String alertSeverity = sheet.getSingleCellData("Severity", 3, "Admin_Alert");
 		String email = sheet.getSingleCellData("Email", 1, "Admin_Alert");
 
@@ -157,7 +157,6 @@ public class AdminAlertTest extends DriverTestCase {
 			admin_alertsPage.clickOnSaveButton();
 			admin_alertsPage.clickonHeaderNameToSortList("Name");
 			admin_alertsPage.verifySavedAlertDetails(alertName, alertDetail);
-
 		} catch (Error e) {
 			captureScreenshot("testActivityLessthanXhoursCriticalAlertCreated");
 			ExecutionLog.logErrorMessage(e);

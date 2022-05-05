@@ -10,6 +10,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import utility.ConstantsUtil;
 import utility.DriverPage;
@@ -32,8 +33,9 @@ public class Admin_AlertsPage extends DriverPage {
 	}
 
 	public void selectType(String type) {
-		clickOn(Admin_AlertsLocators.selectType);
-		putWait(ConstantsUtil.minWait);
+		//clickOn(Admin_AlertsLocators.selectType);
+		selectDropDownByValue(Admin_AlertsLocators.selectType,type);
+//		putWait(ConstantsUtil.minWait);
 		getWebDriver().findElement(By.xpath("//li[text()='" + type + "']")).click();
 
 	}
